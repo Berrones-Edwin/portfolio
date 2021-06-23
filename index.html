@@ -8,27 +8,16 @@
         <meta name="generator" content="Hugo 0.83.1" />
         <title>Portfolio | Edwin Berrones</title>
         <link rel="stylesheet" href="./css/bootstrap.min.css" />
-
         <style>
-            .bd-placeholder-img {
-                font-size: 1.125rem;
-                text-anchor: middle;
-                -webkit-user-select: none;
-                -moz-user-select: none;
-                user-select: none;
-            }
-
-            @media (min-width: 768px) {
-                .bd-placeholder-img-lg {
-                    font-size: 3.5rem;
-                }
+            .image-profile{
+                border-radius: 50%;
             }
         </style>
     </head>
     <body>
         <header>
             <!-- As a heading -->
-        <nav class="navbar navbar-dark bg-dark">
+        <nav class="navbar navbar-dark bg-dark" style="height: 3rem;">
             <div class="container-fluid">
             <span class="navbar-brand mb-0 h1"></span>
             </div>
@@ -39,6 +28,9 @@
             <section class="py-5 text-center container">
                 <div class="row py-lg-5">
                     <div class="col-lg-12 col-md-8 mx-auto">
+                        <div class="text-center">
+                            <img src="https://avatars.githubusercontent.com/u/44040730?v=4" class="img-fluid img-thumbnail image-profile" height="150" width="150" alt="profile image" >
+                        </div>
                         <!-- Bienvenida -->
                         <h1 class="fw-light">Hola, Bienvenidos!</h1>
                         <p class="lead text-muted">
@@ -68,11 +60,11 @@
             <div class="album py-5 bg-light">
                 <div class="container">
                     <h3 class="text-center mb-5">Proyectos</h3>
-                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 card-group">
                         <!-- Journal App -->
                         <div class="col">
-                            <div class="card shadow-sm">
-                                <img src="https://user-images.githubusercontent.com/44040730/121064065-b7ec5600-c78c-11eb-8a14-48895b78b2bd.png" class="card-img-top" alt="Journal App image demo">
+                            <div class="card shadow-sm h-100">
+                                <img  height="267" width="299" src="https://user-images.githubusercontent.com/44040730/121064065-b7ec5600-c78c-11eb-8a14-48895b78b2bd.png" class="card-img-top" alt="Journal App image demo">
                             
                                 <div class="card-body">
                                     <p class="card-title">
@@ -80,6 +72,13 @@
                                     </p>
                                     <p class="card-tex">
                                         JournalApp es un sitio web que te permite crear, editar y eliminar notas.
+                                    </p>
+                                    <p class="card-text">
+                                        <span class="badge bg-primary">React</span>
+                                        <span class="badge bg-primary">SASS</span>
+                                        <span class="badge bg-primary">Redux</span>
+                                        <span class="badge bg-primary">Typescript</span>
+                                        <span class="badge bg-primary">Firebase </span>
                                     </p>
                                     <div
                                         class="
@@ -108,13 +107,19 @@
 
                         <!-- SongSearch -->
                         <div class="col">
-                            <div class="card shadow-sm">
-                                <img src="https://user-images.githubusercontent.com/44040730/121072284-9e500c00-c796-11eb-905b-0d8c96e2b0f8.png" alt="Song Search Image">
+                            <div class="card shadow-sm h-100">
+                                <img height="267" width="299" src="https://user-images.githubusercontent.com/44040730/121072284-9e500c00-c796-11eb-905b-0d8c96e2b0f8.png" class="card-img-top" alt="Song Search Image">
                                 <div class="card-body">
                                     <p class="card-title">Buscador Canciones</p>
                                     <p class="card-text">
                                         Song Search, buscar información del artista y la letra de la canción
                                     </p>
+                                    <p class="card-tex">
+                                        <span class="badge bg-primary">React</span>
+                                        <span class="badge bg-primary">Javascript</span>
+                                        <span class="badge bg-primary">ChakraUI</span>
+                                    </p>
+                                   
                                     <div
                                         class="
                                             d-flex
@@ -139,51 +144,19 @@
                             </div>
                         </div>
                         <!-- End Sondg Search -->
-
-                        <!-- TODOApp -->
-                        <div class="col">
-                            <div class="card shadow-sm">
-                               <img src="https://user-images.githubusercontent.com/44040730/121070009-c8ec9580-c793-11eb-97f4-42b591e22b3e.png"alt="TODO App Image">
-
-                                <div class="card-body">
-                                    <p class="card-text">
-                                       La clásica app de tareas por hacer.
-                                    </p>
-                                    <div
-                                        class="
-                                            d-flex
-                                            justify-content-between
-                                            align-items-center
-                                        "
-                                    >
-                                        <div class="btn-group">
-                                            <a href="https://todo-app-delta-two.vercel.app" class="
-                                            btn
-                                            btn-sm
-                                            btn-outline-secondary
-                                        " target="_blank" rel="noopener noreferrer">Demo</a>
-                                            <a href="https://github.com/Berrones-Edwin/ToDo-app-react" class="
-                                            btn
-                                            btn-sm
-                                            btn-outline-secondary
-                                        " target="_blank" rel="noopener noreferrer">Github </a>
-                                           
-                                        </div>
-                                        <small class="text-muted">9 mins</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End TODOApp -->
-
-                        <!-- Search Gifs -->
-                        <div class="col">
-                            <div class="card shadow-sm">
-                              <img src="https://user-images.githubusercontent.com/44040730/122966339-d33f8f80-d34e-11eb-9a58-c65bf35906d6.png" alt="Search Gifs image">
+                         <!-- Search Gifs -->
+                         <div class="col">
+                            <div class="card shadow-sm h-100">
+                              <img height="267" width="299" src="https://user-images.githubusercontent.com/44040730/122966339-d33f8f80-d34e-11eb-9a58-c65bf35906d6.png" class="card-img-top" alt="Search Gifs image">
 
                                 <div class="card-body">
                                     <p class="card-text">
                                         SearchGifs es una aplicación que usa la api de giphy
+                                    </p>
+                                    <p class="card-tex">
+                                        <span class="badge bg-primary">React</span>
+                                        <span class="badge bg-primary">Javascript</span>
+                                        <span class="badge bg-primary">Bootstrap</span>
                                     </p>
                                     <div
                                         class="
@@ -209,6 +182,88 @@
                             </div>
                         </div>
                         <!-- Search Gifs -->
+
+                        <!-- TODOApp -->
+                        <div class="col">
+                            <div class="card shadow-sm h-100">
+                               <img height="267" width="299" src="https://user-images.githubusercontent.com/44040730/121070009-c8ec9580-c793-11eb-97f4-42b591e22b3e.png" class="card-img-top" alt="TODO App Image">
+
+                                <div class="card-body">
+                                    <p class="card-text">
+                                       Aplicación de Tareas por hacer.
+                                    </p>
+                                    <p class="card-tex">
+                                        <span class="badge bg-primary">React</span>
+                                        <span class="badge bg-primary">Javascript</span>
+                                        <span class="badge bg-primary">ChakraUI</span>
+                                    </p>
+                                    <div
+                                        class="
+                                            d-flex
+                                            justify-content-between
+                                            align-items-center
+                                        "
+                                    >
+                                        <div class="btn-group">
+                                            <a href="https://todo-app-delta-two.vercel.app" class="
+                                            btn
+                                            btn-sm
+                                            btn-outline-secondary
+                                        " target="_blank" rel="noopener noreferrer">Demo</a>
+                                            <a href="https://github.com/Berrones-Edwin/ToDo-app-react" class="
+                                            btn
+                                            btn-sm
+                                            btn-outline-secondary
+                                        " target="_blank" rel="noopener noreferrer">Github </a>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End TODOApp -->
+                        <!-- Game Memoria -->
+                        <div class="col">
+                            <div class="card shadow-sm h-100">
+                               <img height="267" width="299" src="https://user-images.githubusercontent.com/44040730/108284805-89019400-714b-11eb-8f07-37169d9496d6.png" class="card-img-top" alt="Game Memoria Image">
+
+                                <div class="card-body">
+                                    <p class="card-text">
+                                       Juego Memoria
+                                    </p>
+                                    <p class="card-tex">
+                                        <span class="badge bg-primary">HTML | CSS</span>
+                                        <span class="badge bg-primary">Javascript</span>
+                                        <span class="badge bg-primary">Bootstrap</span>
+                                    </p>
+                                    <div
+                                        class="
+                                            d-flex
+                                            justify-content-between
+                                            align-items-center
+                                        "
+                                    >
+                                        <div class="btn-group">
+                                            <a href="https://berrones-edwin.github.io/memorama/" class="
+                                            btn
+                                            btn-sm
+                                            btn-outline-secondary
+                                        " target="_blank" rel="noopener noreferrer">Demo</a>
+                                            <a href="https://berrones-edwin.github.io/memorama/" class="
+                                            btn
+                                            btn-sm
+                                            btn-outline-secondary
+                                        " target="_blank" rel="noopener noreferrer">Github </a>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Game Memoria -->
+
+
+                       
                     </div>
                 </div>
             </div>
